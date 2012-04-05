@@ -11,7 +11,7 @@ app.get('/code/:code', function(req, res){
 var port = process.env.PORT || 8888;
 
 app.listen(port, function(){
-    console.log("App again.... Listening on port " + port);
+    console.log("App starting.... Listening on port " + port);
 });
 
 
