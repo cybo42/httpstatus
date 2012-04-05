@@ -1,0 +1,13 @@
+{
+    "name": "httpstatus",
+    "description": "Test application for playing with HTTP Status codes",
+    "version": "0.8.0",
+    "author": "Joe Cyboski<cybo42@gmail.com>",
+    "contributors": [
+        { "name": "Joe Cyboski", "email": "cybo42@gmail.com" }
+    ],
+    "dependencies": {
+        "express": "2.5.9"
+    },
+   "engines": { "node": ">= 0.4.1 < 0.7.0" }
+}
