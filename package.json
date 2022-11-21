@@ -3,6 +3,7 @@
     "description": "Test application for playing with HTTP Status codes",
     "version": "0.8.0",
     "author": "Joe Cyboski<cybo42@gmail.com>",
+    "main": "app.js",
     "contributors": [
         { "name": "Joe Cyboski", "email": "cybo42@gmail.com" }
     ],
