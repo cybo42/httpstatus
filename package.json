@@ -8,7 +8,7 @@
         { "name": "Joe Cyboski", "email": "cybo42@gmail.com" }
     ],
     "dependencies": {
-        "express": "2.5.9"
+        "express": "5.1.0"
     },
    "engines": { "node": ">= 0.4.1 < 0.7.0" }
 }
