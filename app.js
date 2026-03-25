@@ -1,6 +1,6 @@
 var express = require('express');
 
-var app = express.createServer();
+var app = express();
 
 app.get('/code/:code', function(req, res){
     var code = parseInt(req.params.code);
@@ -10,11 +10,11 @@ app.get('/code/:code', function(req, res){
     var acceptHeader = req.headers.accept || '';
     if (acceptHeader.indexOf('application/xml') !== -1) {
         // Send XML response
-        res.contentType('application/xml');
-        res.send('<?xml version="1.0" encoding="UTF-8"?>\n<response>\n  <code>' + code + '</code>\n</response>', code);
+        res.type('application/xml');
+        res.status(code).send('<?xml version="1.0" encoding="UTF-8"?>\n<response>\n  <code>' + code + '</code>\n</response>');
     } else {
         // Default to JSON response
-        res.send({code: code}, code);
+        res.status(code).json({code: code});
     }
 });
 
