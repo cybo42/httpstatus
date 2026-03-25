@@ -7,8 +7,16 @@
     "contributors": [
         { "name": "Joe Cyboski", "email": "cybo42@gmail.com" }
     ],
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest --coverage"
+    },
     "dependencies": {
         "express": "5.2.1"
     },
-   "engines": { "node": ">= 18.0.0" }
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^7.1.0"
+    },
+    "engines": { "node": ">= 18.0.0" }
 }
