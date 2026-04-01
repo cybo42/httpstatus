@@ -12,11 +12,11 @@
         "test": "jest --coverage"
     },
     "dependencies": {
-        "express": "5.2.1"
+        "express": "^5.2.1"
     },
     "devDependencies": {
-        "jest": "^29.7.0",
-        "supertest": "^7.1.0"
+        "jest": "^30.3.0",
+        "supertest": "^7.2.2"
     },
     "engines": { "node": ">= 18.0.0" }
 }
